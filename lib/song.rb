@@ -27,24 +27,3 @@ def self.genres
   @@genres.uniq
 end
 
-def self.genre_count
-  genre_hash = {}
-  if genre_count[genre]
-    genre_count[genre] += 1
-    else
-    genre_count[genre]
-end
-end
-
-
-def artist_count
-  artist_hash = {}
-  binding.pry
-  if artist_count[artist]
-    artist_count[artist] +=1
-  else
-    artist_count[artist]
-  end
-  artist_hash
-end
-end
