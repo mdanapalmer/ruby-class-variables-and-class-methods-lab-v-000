@@ -31,11 +31,7 @@ def self.genre_count
   genre_hash = {}
   @@genres.each do |genre|
   genre_hash[genre]
-  if genre == genre
-    false
-  else
-    genre != genre
-    genre += 1
+  
 
   end
 
