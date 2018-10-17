@@ -29,7 +29,7 @@ end
 
 def self.genre_count
   genre_hash = {}
-  genre_hash[@@genre]
+  genre_hash[@@genres]
 end
 
 end
