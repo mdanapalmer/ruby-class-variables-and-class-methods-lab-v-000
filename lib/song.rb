@@ -29,11 +29,10 @@ end
 
 def artist_count
   if artist_count[artist]
-    binding.pry
-
     artist_count[artist] +=1
   else
     artist_count[artist]
+    binding.pry
   end
 end
 end
