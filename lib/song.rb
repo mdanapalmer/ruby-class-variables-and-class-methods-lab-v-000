@@ -32,5 +32,6 @@ def self.genre_count
   @@genres.map do |genre|
   genre_hash[genre]
 end
+end
 
 end
