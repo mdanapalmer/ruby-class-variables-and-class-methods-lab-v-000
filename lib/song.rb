@@ -27,7 +27,9 @@ def self.genres
   @@genres.uniq
 end
 
-
-
+def self.genre_count
+  genre_hash = {}
+  genre_hash << @@genre
 end
 
+end
