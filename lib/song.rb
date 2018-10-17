@@ -29,11 +29,11 @@ end
 
 def artist_count
   artist_hash = {}
+  binding.pry
   if artist_count[artist]
     artist_count[artist] +=1
   else
     artist_count[artist]
-    binding.pry
   end
   artist_hash
 end
