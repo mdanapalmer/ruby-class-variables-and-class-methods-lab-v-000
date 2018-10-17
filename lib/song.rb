@@ -35,5 +35,6 @@ def artist_count
     artist_count[artist]
     binding.pry
   end
+  artist_hash
 end
 end
