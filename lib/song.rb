@@ -37,6 +37,8 @@ def self.genre_count
     genre != genre
     genre += 1
 
+  end
+
 end
 end
 
