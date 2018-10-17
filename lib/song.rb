@@ -28,6 +28,7 @@ def self.genres
 end
 
 def artist_count
+  artist_hash = {}
   if artist_count[artist]
     artist_count[artist] +=1
   else
